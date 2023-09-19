@@ -1,4 +1,3 @@
-
 import Container from "@/components/container";
 import Link from "next/link";
 import MainNav from "@/components/main-nav";
@@ -7,6 +6,7 @@ import NavbarAction from "@/components/navbar-action";
 
 const Navbar = async () => {
 	const categories = await getCategories();
+
 
 	return (
 		<div className="border-b">
